@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Yukarii — Visual Alchemist of Worlds</title>
+  <meta name="description" content="Yukarii — concept art, 3D, cutscenes & marketing art for indie games and TTRPGs." />
+  <style>
+    :root{
+      --bg:#0b0b10; --card:#0f1220; --muted:#9aa3b2; --accent:#b78b3b; --accent-2:#7f5ab3; --glass: rgba(255,255,255,0.03);
+      --fw-sans: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      --fw-serif: 'Playfair Display', Georgia, serif;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:var(--fw-sans);background:linear-gradient(180deg,#05050a 0%,#0b0b10 80%);color:#e6eef6}
+    .wrap{max-width:1100px;margin:32px auto;padding:28px}
+    header{display:flex;align-items:center;gap:20px}
+    .logo{width:84px;height:84px;border-radius:12px;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:flex;align-items:center;justify-content:center;font-family:var(--fw-serif);font-size:20px;color:#0b0b10;box-shadow:0 6px 18px rgba(0,0,0,0.6)}
+    h1{margin:0;font-family:var(--fw-serif);font-size:34px}
+    .tag{color:var(--muted);margin-top:6px}
+
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:32px;align-items:center;margin-top:26px}
+    .card{background:var(--card);padding:22px;border-radius:14px;box-shadow:0 8px 30px rgba(0,0,0,0.6)}
+    .lead{font-size:16px;line-height:1.5;color:#dfe9f6}
+
+    .services{display:flex;flex-wrap:wrap;gap:12px;margin-top:14px}
+    .service{background:var(--glass);padding:10px 12px;border-radius:10px;color:var(--muted);font-size:14px}
+
+    .thumbs{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}
+    .thumb{height:140px;border-radius:10px;background:#111217;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:13px}
+
+    .section{margin-top:28px}
+    .two-col{display:grid;grid-template-columns:1fr 360px;gap:20px}
+
+    .contact-card{padding:18px;border-radius:12px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01))}
+    label{display:block;font-size:13px;color:var(--muted);margin-bottom:6px}
+    input,textarea{width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit}
+    button{margin-top:10px;padding:10px 14px;border-radius:10px;border:0;background:linear-gradient(90deg,var(--accent),var(--accent-2));color:#071018;font-weight:600;cursor:pointer}
+
+    footer{margin-top:34px;color:var(--muted);font-size:13px;text-align:center}
+
+    @media(max-width:900px){.hero,.two-col{grid-template-columns:1fr}.thumbs{grid-template-columns:repeat(2,1fr)}.wrap{margin:18px}}
+    @media(max-width:520px){.thumbs{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">Yk</div>
+      <div>
+        <h1>YUKARII</h1>
+        <div class="tag">Visual Alchemist of Worlds — Concept • 3D • Cutscenes • Marketing</div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div>
+        <div class="card">
+          <p class="lead">I’m <strong>Yukarii</strong> — a versatile artist working with indie game teams, TTRPG creators, and RPG communities. I turn concepts into living visuals: character designs, environments, cinematic cutscenes, and eye‑catching marketing art.</p>
+
+          <div class="services">
+            <div class="service">Concept Art</div>
+            <div class="service">Character Design</div>
+            <div class="service">Environment Art</div>
+            <div class="service">3D Models</div>
+            <div class="service">Cutscene Storyboards</div>
+            <div class="service">Key Art & Marketing</div>
+          </div>
+
+          <div class="section">
+            <h3 style="margin:0 0 8px 0">Why work with me</h3>
+            <ul style="margin:0;padding-left:18px;color:var(--muted);line-height:1.6">
+              <li>Deep experience in RPG & TTRPG visual language</li>
+              <li>Collaborative, reliable, and fast feedback loops</li>
+              <li>Flexible aesthetic — painterly realism to stylized</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <aside>
+        <div class="card contact-card">
+          <h4 style="margin:0 0 10px 0">Hire / Contact</h4>
+          <p style="margin:0 0 12px 0;color:var(--muted)">Email: <strong>[your@email.com]</strong><br>Discord: <strong>Yukarii#0000</strong></p>
+          <div style="font-size:13px;color:var(--muted);margin-bottom:8px">Quick links</div>
+          <div style="display:flex;gap:8px;flex-wrap:wrap">
+            <a style="padding:8px 10px;border-radius:8px;background:rgba(255,255,255,0.02);text-decoration:none;color:var(--muted);font-size:13px">ArtStation</a>
+            <a style="padding:8px 10px;border-radius:8px;background:rgba(255,255,255,0.02);text-decoration:none;color:var(--muted);font-size:13px">Instagram</a>
+            <a style="padding:8px 10px;border-radius:8px;background:rgba(255,255,255,0.02);text-decoration:none;color:var(--muted);font-size:13px">Portfolio</a>
+          </div>
+        </div>
+
+        <div style="height:18px"></div>
+
+        <div class="card" style="padding:14px;text-align:center">
+          <div style="font-size:13px;color:var(--muted)">Starting rates (example)</div>
+          <div style="font-weight:700;font-size:20px;margin-top:8px">Concepts — $60+</div>
+          <div style="font-weight:700;font-size:20px;margin-top:8px">3D Scenes — $150+</div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section">
+      <h2 style="margin:0 0 12px 0">Selected Works</h2>
+      <div class="thumbs">
+        <div class="thumb">Gallery image 1 (replace)</div>
+        <div class="thumb">Gallery image 2 (replace)</div>
+        <div class="thumb">Gallery image 3 (replace)</div>
+        <div class="thumb">Gallery image 4 (replace)</div>
+        <div class="thumb">Gallery image 5 (replace)</div>
+        <div class="thumb">Gallery image 6 (replace)</div>
+      </div>
+    </section>
+
+    <section class="section two-col">
+      <div>
+        <h2 style="margin-top:0">About</h2>
+        <p style="color:var(--muted)">I specialize in visual storytelling for indie games and tabletop roleplaying projects. I work closely with designers to capture mood, silhouette, and narrative beats — then translate those into characters, environments, and cinematic moments.
+        </p>
+
+        <h3 style="margin-top:14px">Process</h3>
+        <ol style="color:var(--muted)">
+          <li>Brief & references</li>
+          <li>Rough concepts / thumbnails</li>
+          <li>Refined art / client feedback</li>
+          <li>Final files & handoff</li>
+        </ol>
+
+        <h3 style="margin-top:14px">Extras</h3>
+        <p style="color:var(--muted)">I also offer style guides, turnarounds, and simple scene rigs for cutscenes. Happy to provide NDA or contract on request.</p>
+      </div>
+
+      <aside>
+        <div class="card">
+          <h3 style="margin:0 0 8px 0">Demo Reel & Case Studies</h3>
+          <p style="color:var(--muted);margin:0 0 10px 0">Embed or link to a short reel, split into: Concept work — 3D — In-game scenes.</p>
+          <a style="display:inline-block;margin-top:6px;padding:8px 12px;border-radius:8px;background:rgba(255,255,255,0.02);text-decoration:none;color:var(--muted)">Watch Reel</a>
+        </div>
+
+        <div style="height:12px"></div>
+
+        <div class="card" style="padding:12px;text-align:center">
+          <div style="color:var(--muted);font-size:13px">Available for collaboration</div>
+          <div style="font-weight:700;margin-top:8px">Indie Games • TTRPG • Commission</div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section">
+      <h2>Contact & Commission</h2>
+      <div style="display:grid;grid-template-columns:1fr 320px;gap:18px;margin-top:12px">
+        <form class="card" style="padding:18px" onsubmit="event.preventDefault();alert('Replace this with your email handler or form backend.')">
+          <label>Name</label>
+          <input placeholder="Your name" />
+          <label>Email</label>
+          <input placeholder="you@example.com" />
+          <label>Message</label>
+          <textarea rows="4" placeholder="Project brief, timeline, budget"></textarea>
+          <button type="submit">Send message</button>
+        </form>
+
+        <div class="contact-card card">
+          <h4 style="margin:0 0 8px 0">Quick contact</h4>
+          <p style="color:var(--muted);margin:0 0 10px 0">Email: <strong>[your@email.com]</strong><br>Discord: <strong>Yukarii#0000</strong></p>
+          <p style="color:var(--muted);font-size:13px;margin:0">Tip: replace placeholders with live links to ArtStation, Instagram, or Ko-fi.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Yukarii — Visual Alchemist • <span style="color:var(--muted)">Available for indie collaborations</span>
+    </footer>
+  </div>
+
+  <script>document.getElementById('year').innerText=new Date().getFullYear();</script>
+</body>
+</html>
